@@ -1,0 +1,31 @@
+" [HJKL] -> {TSRN}
+" ————————————————
+" {tn} = « gauche / droite »
+"noremap t h
+"noremap n l
+" {rs} = « haut / bas »
+noremap s j
+noremap r k
+
+"S et R pour descendre/monter d'une demi page
+noremap S <SPACE>
+noremap R <C-b>
+
+"[HJKL] <- {TSRN}
+"h = reload
+noremap h r
+noremap H R
+
+" premier/dernier onglet
+noremap ge g$
+noremap gi g0
+
+" page précédente/suivante
+noremap e <C-o>
+noremap i <C-i>
+
+" Corollaire : la commande IGNORE devient <C-i>
+noremap <C-i> i
+
+" Pour quitter une page q remplace <C-w>
+noremap q <C-w>
