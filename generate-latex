@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ $# = 0 ]; then
+        echo "Argument missing"
+        exit -1
+fi
+
+echo "\\documentclass[12pt,a4paper,twoside]{article}" >> $1
+echo "\\usepackage[english]{babel}" >> $1
+echo "\\usepackage[utf8]{inputenc}" >> $1
+echo "\\usepackage{eurosym}" >> $1
+echo "\\usepackage{graphicx}" >> $1
+echo "\\usepackage{layout}" >> $1
+echo "\\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}" >> $1
+echo "\\usepackage{titletoc}" >> $1
+echo "" >> $1
+echo "\\author{}" >> $1
+echo "\\title{}" >> $1
+echo "\\date{}" >> $1
+echo "" >> $1
+echo "\\begin{document}" >> $1
+echo "\\end{document}" >> $1
