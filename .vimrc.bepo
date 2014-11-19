@@ -1,13 +1,9 @@
-﻿" Pour faciliter les manipulations de fenêtres, on utilise {W} comme un Ctrl+W :
-noremap w <C-w>
-noremap W <C-w><C-w>
-
-" [HJKL] -> {TSRN}
+﻿" [HJKL] -> {TSRN}
 " ————————————————
 " {tn} = « gauche / droite »
 noremap t h
 noremap n l
-" {rs} = « haut / bas »
+"" {rs} = « haut / bas »
 noremap s j
 noremap r k
 " {TN} = « haut / bas de l'écran »
@@ -41,9 +37,23 @@ noremap [k [s
 " Recherche facile
 " ________________
 " on remape n et N en , et c
-noremap c n
-noremap , N
+noremap ' n
+noremap ? N
 
+" {W} -> [É]
+" _________
+" on remape W sur É:
+noremap é w
+noremap É W
+" Corollaire
+noremap aé aw
+noremap aÉ aW
+noremap ié iW
+noremap iÉ iW
+
+" Pour faciliter les manipulations de fenêtres, on utilise {W} comme un Ctrl+W :
+noremap w <C-w>
+noremap W <C-w><C-w>
 
 " Désambiguation de {g}
 " —————————————————————
@@ -63,5 +73,3 @@ noremap g" g0
 " % -> m
 " ____________________________________________________________
 noremap m %
-
-
