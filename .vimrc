@@ -39,3 +39,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 " Pathogen config
 execute pathogen#infect()
+
+" Affiche les tabulations
+set list!
+set listchars=tab:>.
