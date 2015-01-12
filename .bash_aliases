@@ -22,4 +22,4 @@ alias minecraft='java -jar ~/Minecraft/Minecraft.jar'
 #SSH
 alias raspi='ssh worms@192.168.1.96'
 
-alias sql='mysql -u root -proot'
+alias sql='mysql -u root -p main'
