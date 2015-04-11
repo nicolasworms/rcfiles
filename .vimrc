@@ -3,6 +3,9 @@ set t_Co=256
 colorscheme jellybeans
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'jellybeans'
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 " Display infos
 set nu
 set showcmd
@@ -11,7 +14,6 @@ set wildmenu
 set showmatch
 set incsearch
 set smartcase
-set nohls
 set incsearch
 " Folding
 set foldenable
