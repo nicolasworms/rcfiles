@@ -1,4 +1,5 @@
 source ~/.vimrc.bepo
+
 set t_Co=256
 colorscheme jellybeans
 let g:airline_powerline_fonts = 1
@@ -6,13 +7,16 @@ let g:airline_theme = 'jellybeans'
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+set modeline
 " Display infos
-set nu
+se nu
+set showmatch
 set showcmd
 set wildmenu
 " Searching
-set showmatch
 set incsearch
+set hlsearch
+set ignorecase
 set smartcase
 set incsearch
 " Folding
@@ -20,15 +24,20 @@ set foldenable
 set foldmethod=indent
 set autoindent
 set smartindent
+
+" Removing annoying tabs
+set tabstop=4
+set sw=4 sts=4
+set expandtab
+set smarttab
+
 syntax on
 set syntax=enable
 filetype plugin indent on
 " Evite les bips en fin de ligne ou de fichier
 set visualbell 
-set mouse=a
 map <F2> :wa <Return> :mak <Return> map <F3> :%s/\s\+$//e <Return>
 map <F5> :setlocal spell spelllang=fr,en <Return>
-set pastetoggle=<F8>
 se ch=2
 se laststatus=2
 set scrolloff=8
