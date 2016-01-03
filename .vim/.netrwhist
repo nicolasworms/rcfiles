@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/worms/.config'
-let g:netrw_dirhist_2='/home/worms/.moc'
-let g:netrw_dirhist_3='/home/worms/.config'
-let g:netrw_dirhist_4='/home/worms/rcfiles'
-let g:netrw_dirhist_5='/home/worms/git'
-let g:netrw_dirhist_6='/etc/X11/Xresources'
-let g:netrw_dirhist_7='/etc/acpi'
-let g:netrw_dirhist_8='/etc/acpi/events'
-let g:netrw_dirhist_9='/home/worms/.config/autostart'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/worms/synergy/src/gui'
