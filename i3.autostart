@@ -6,6 +6,6 @@ bash ~/.fehbg &
 pactl set-sink-volume @DEFAULT_SINK@ '20%' &
 xbacklight -set 70 &
 
-dunst &
+dunst ~/.config/dunst/dunstrc &
 firefox &
 xfce4-terminal &
