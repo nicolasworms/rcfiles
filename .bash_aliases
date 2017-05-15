@@ -3,6 +3,7 @@ alias la='ls -al'
 alias ll='ls -alF'
 alias l='ls -CF'
 alias lrt='ls -lrt'
+alias lart='ls -lart'
 alias lrtg='ls -alrt | grep -i'
 alias envg='env | grep -i'
 
