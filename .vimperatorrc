@@ -37,6 +37,16 @@ noremap <C-i> i
 " Pour quitter une page q remplace <C-w>
 noremap q <C-w>
 
+"javascript to hide statusbar
+noremap <silent> <F8> :js toggle_bottombar()<CR>
+noremap : :js toggle_bottombar('on', true)<CR>:
+noremap b :js toggle_bottombar('on')<CR>b
+noremap o :js toggle_bottombar('on')<CR>o
+noremap O :js toggle_bottombar('on')<CR>t
+noremap / :js toggle_bottombar('on')<CR>/
+cnoremap <CR> <CR>:js toggle_bottombar('off')<CR>
+cnoremap <Esc> <Esc>:js toggle_bottombar('off')<CR>
+
 :js << EOF
 function toggle_bottombar(p) {
     var bb = document.getElementById('liberator-bottombar');
