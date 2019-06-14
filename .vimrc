@@ -35,7 +35,7 @@ syntax on
 set syntax=enable
 filetype plugin indent on
 " Evite les bips en fin de ligne ou de fichier
-set visualbell 
+set visualbell
 map <F2> :wa <Return> :mak <Return> map <F3> :%s/\s\+$//e <Return>
 map <F5> :setlocal spell spelllang=fr,en <Return>
 se ch=2
