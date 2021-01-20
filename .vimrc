@@ -1,4 +1,3 @@
-execute pathogen#infect()
 source ~/.vimrc.bepo
 colorscheme jellybeans
 
