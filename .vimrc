@@ -48,9 +48,8 @@ set fileformats=unix
 set encoding=utf-8
 set fileencoding=utf-8
 
-" Affiche les tabulations
-set list!
-set listchars=tab:>.
+" Display tabs, trailing spaces, non-breaking spaces
+set list listchars=tab:>·,trail:·,nbsp:⎵
 
 " PLUGINS OPTIONS
 " Vim-airline
